@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jekyll and Bootstrap</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <!-- NAV -->
+<nav class="navbar navbar-expand-md navbar-light">
+    <div class="nav-container container">
+        <div class="WE-name">
+            <a href="/">
+                <h2>WE</h2>
+            </a>
+            <a href="/">
+                <h3>WE</h3>
+            </a>
+            <a href="/">
+                <h1>WE</h1>
+            </a>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="/works" 
+                        class="nav-link">
+                        <h3>WORKS</h3>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/publications"  class="nav-link">
+                        <h3>PUBLICATIONS</h3>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/contact" 
+                        class="nav-link">
+                        <h3>CONTACT</h3>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/about" class='current' 
+                        class="nav-link">
+                        <h3>ABOUT</h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+    <div class="core">
+        <div class="container">
+    <div>
+        <div>
+            <h1>ABOUT</h1>
+            <article>
+                <p>Waterproof Exhibitions is a portable art initiative found by Napisa Leelasuphapong and Rawiruj Suradin. Waterproof Exhibitions has a nomadic spirit. It neither bound to specific space nor certain time. It aims to be an experimental space for organising and showing art exhibition and other artistic practices.</p>
+
+<p>The idea for Waterproof Exhibitions begins in Belgium where Napisa and Rawiruj studied their master degree. They came up with the idea about using the balcony of their apartment on the 7th floor in Gent as a temporary exhibition space finding that the balcony is not practical to use in daily life because of the coldness and dampness of Belgium weather.</p>
+
+<p>Napisa thought about how artworks can, or cannot, be protected from this unpredictable weather of Belgium if she would arrange an exhibition on her balcony. Then the name ‘Waterproof Exhibitions’ popped out by Rawiruj during a coffee break at the balcony in one sunny day. Even though the attempt has never been realised physically, they still keep the idea of ‘Waterproof Exhibitions’ to experiment on their personal projects and to protect art from all the dampness. Recently Napisa and Rawiruj are relocated to their origin city, Bangkok, Thailand, and doing projects and collaborations with other art spaces in Bangkok.</p>
+
+<p>Stay dry.</p>
+
+<p>xxx</p>
+
+            </article>
+        </div>
+    </div>
+</div>
+    </div>
+    <footer>
+    <div class="container">
+        <!--
+        <div>
+            <div>
+                
+            </div>
+        </div>
+        -->
+        <div>
+            <div>
+                <p>WATERPROOF EXHIBITIONS &copy; 2020.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        /* BG Color Shifting */
+        function ColorShift() {
+            setTimeout(ColorShift, 5000);
+            var R = Math.random() * 256 | 100
+            var G = Math.random() * 220 | 180
+            var B = Math.random() * 220 | 180
+            $('body').attr("style", "background-color: rgb(" + R + "," + G + "," + B + ");" + "transition: 8s;");
+            console.log(R);
+        }
+        ColorShift()
+    });
+</script>
+</body>
+
+</html>

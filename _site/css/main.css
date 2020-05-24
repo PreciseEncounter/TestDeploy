@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200");
+.navbar { background: rgba(255, 255, 255, 0.5); border-bottom: 0.1px solid black; padding: 15px; width: 100%; }
+
+.navbar .nav-container { display: flex; justify-content: space-between; }
+
+.navbar .current { text-decoration: underline; }
+
+.navbar .nav-item { font-size: 1.4rem; }
+
+.navbar .nav-item a { color: black; display: flex; height: 20px; justify-content: flex-end; }
+
+.navbar .nav-item a:hover { color: #aef641; }
+
+.navbar .navbar-nav { list-style: none; padding: 0; }
+
+.navbar .WE-name { align-items: flex-start; display: flex; }
+
+.navbar .WE-name a { margin: 0 5px; }
+
+.navbar .WE-name a:hover { color: #fea1d2; }
+
+.navbar .WE-name h1 { line-height: 32px; }
+
+.navbar .WE-name h2 { line-height: 15px; }
+
+.navbar .WE-name h3 { line-height: 15px; }
+
+footer { background: rgba(255, 255, 255, 0.5); border-top: 0.1px solid black; padding: 15px; }
+
+footer p { margin-bottom: 0 !important; }
+
+#publications a { text-decoration: none; }
+
+#publications a:hover { color: black; }
+
+#publications img { width: 200px; }
+
+#publications .container { display: flex; }
+
+#publications .publications-item { display: inline-block; text-align: center; width: 50%; }
+
+#publication img { width: 50vw; }
+
+#works a { text-decoration: none; }
+
+#works a:hover { color: black; }
+
+#works img { width: 200px; }
+
+#work img { width: 50vw; }
+
+@font-face { font-family: "Waterproof Condense"; src: url("../assets/fonts/Waterproof-condense.otf") format("opentype"); }
+
+@font-face { font-family: "Waterproof Extend"; src: url("../assets/fonts/Waterproof-extend.otf") format("opentype"); }
+
+@font-face { font-family: "Waterproof Regular"; src: url("../assets/fonts/Waterproof-regular.otf") format("opentype"); }
+
+body { font-family: Work Sans; margin: 0; padding: 0; }
+
+body a { color: black; }
+
+body p { color: black; font-family: "Courier New", Courier, monospace; font-size: 15px; /*font-weight: 600;*/ margin-bottom: 15px; }
+
+body h1 { color: black; font-family: Waterproof Condense, Helvetica, sans-serif; font-size: 20px; display: inline-block; }
+
+body h2 { color: black; font-family: Waterproof Extend, Helvetica, sans-serif; font-size: 15px; }
+
+body h3 { color: black; font-family: Waterproof Regular, Helvetica, sans-serif; font-size: 15px; }
+
+body .core { /*min-height: 100vh;*/ padding: 15px; }
+
+/*# sourceMappingURL=main.css.map */
