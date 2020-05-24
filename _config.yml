@@ -1,0 +1,19 @@
+# Site settings
+title:
+email:
+author:
+description:
+url:
+baseurl:
+
+# Build settings
+permalink: /:title
+sass:
+  sass_dir: css
+collections:
+  works:
+    output: true
+    permalink: /works/:title
+  publications:
+    output: true
+    permalink: /publications/:title

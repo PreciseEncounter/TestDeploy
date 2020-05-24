@@ -1,0 +1,17 @@
+#works {
+  a {
+    text-decoration: none;
+    &:hover {
+      color: black;
+    }
+  }
+  img {
+    width: 200px;
+  }
+}
+
+#work {
+  img {
+    width: 50vw;
+  }
+}

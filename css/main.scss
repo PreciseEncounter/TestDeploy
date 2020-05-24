@@ -1,0 +1,60 @@
+---
+---
+
+@import "custom/includes/header";
+@import "custom/includes/footer";
+@import "custom/includes/publications";
+@import "custom/includes/works";
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200");
+
+@font-face {
+  font-family: "Waterproof Condense";
+  src: url("../assets/fonts/Waterproof-condense.otf") format("opentype");
+}
+@font-face {
+  font-family: "Waterproof Extend";
+  src: url("../assets/fonts/Waterproof-extend.otf") format("opentype");
+}
+@font-face {
+  font-family: "Waterproof Regular";
+  src: url("../assets/fonts/Waterproof-regular.otf") format("opentype");
+}
+
+body {
+  font-family: Work Sans;
+  margin: 0;
+  padding: 0;
+
+  a {
+    color: black;
+  }
+  p {
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    /*font-weight: 600;*/
+    margin-bottom: 15px;
+  }
+  h1 {
+    color: black;
+    font-family: Waterproof Condense, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+  }
+  h2 {
+    color: black;
+    font-family: Waterproof Extend, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  h3 {
+    color: black;
+    font-family: Waterproof Regular, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  .core {
+    /*min-height: 100vh;*/
+    padding: 15px;
+  }
+}
