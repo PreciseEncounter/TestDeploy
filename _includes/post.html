@@ -1,0 +1,14 @@
+<div id="post" class="container">
+    <div>
+        <div>
+            <p>
+                {{ page.date | date: "%b %-d, %Y" }}
+            </p>
+            <img src="{{ page.image }}">
+            <h1>{{ page.title }}</h1>
+            <article>
+                {{ content }}
+            </article>
+        </div>
+    </div>
+</div>

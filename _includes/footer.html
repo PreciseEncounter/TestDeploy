@@ -1,0 +1,36 @@
+<footer>
+    <div class="container">
+        <!--
+        <div>
+            <div>
+                {% if site.show_social_icons %}
+                {% include social_links.html %}
+                {% endif %}
+            </div>
+        </div>
+        -->
+        <div>
+            <div>
+                <p>WATERPROOF EXHIBITIONS &copy; {{ site.time | date: '%Y' }}.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        /* BG Color Shifting */
+        function ColorShift() {
+            setTimeout(ColorShift, 5000);
+            var R = Math.random() * 256 | 100
+            var G = Math.random() * 220 | 180
+            var B = Math.random() * 220 | 180
+            $('body').attr("style", "background-color: rgb(" + R + "," + G + "," + B + ");" + "transition: 8s;");
+            console.log(R);
+        }
+        ColorShift()
+    });
+</script>

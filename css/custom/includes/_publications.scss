@@ -1,0 +1,26 @@
+#publications {
+  a {
+    text-decoration: none;
+    &:hover {
+      color: black;
+    }
+  }
+  img {
+    width: 200px;
+  }
+
+  .container {
+    display: flex;
+  }
+  .publications-item {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+  }
+}
+
+#publication {
+  img {
+    width: 50vw;
+  }
+}
