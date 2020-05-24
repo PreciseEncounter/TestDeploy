@@ -3,7 +3,8 @@ title:
 email:
 author:
 description:
-url:
+url: preciseencounter.github.io
+baseurl: /TestDeploy
 
 # Build settings
 permalink: /:title
